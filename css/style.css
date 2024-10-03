@@ -3,3 +3,115 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #4a154b;
+}
+
+.header-container {
+    padding: 0.5rem 1.5rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_button {
+    display: none;
+}
+
+.header_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: none;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 1.5rem;
+    height: 3rem;
+}
+
+.magnifying-icon {
+    width: 1.2rem;
+    height: 
+    auto;
+}
+
+.hamburger-icon {
+    width: 1.2rem;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+
+    .header-container {
+        margin: 1rem 2.5rem;
+    }
+
+    .nav_logo {
+        height: 80%;
+        width: auto;
+
+    }
+
+    .nav_list {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        align-items: center;
+        margin-right: auto;
+        margin-left: 3rem;
+    }
+
+    .list_item {
+        color: white;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .magnifying-icon {
+        margin-right: 2rem;
+    }
+
+    .nav_menu {
+        gap: 1rem;
+    }
+
+    .nav_button {
+        display: flex;
+        padding: 1rem;
+        color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+        height: 100%;
+    }
+
+    .nav_sales, .nav_workspace {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav_workspace {
+        color: #4a154b;
+        background-color: white;
+    }
+
+    .workspace-button {
+        background-color: white;
+    }
+
+    .list-arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    
+}
