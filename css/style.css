@@ -3,3 +3,77 @@
     margin: 0;
     padding: 0;
 }
+
+.slack-for-mac {
+    background-color: rgb(133, 67, 166);
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    color: white;
+    border: 5px solid plum;
+    border-radius: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.download-cloud {
+    max-width: 30%;
+    height: 20vh;
+    padding-right: 1.5rem;
+    align-self: center;
+}
+.download {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.download a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.download a:hover {
+    color: rgb(82, 32, 82);
+}
+.download-arrow {
+    height: 2rem;
+    margin-bottom: -10px;
+    filter: brightness(0) saturate(100%) invert(51%) sepia(47%) saturate(4438%) hue-rotate(218deg) brightness(99%) contrast(87%);
+}
+.text {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    font-size: 1.1rem
+}
+.text p {
+    flex: 1 1 100%;
+}
+.download-button {
+    color: rgb(116, 116, 237);
+}
+.download-button:hover {
+    color: rgb(82, 32, 82);
+}    
+
+@media (min-width: 1024px) {
+    .text {
+        flex-direction: row;
+        font-size: 1.5rem;
+    }
+
+    .download-button {
+        flex: 1 1 30%;
+        font-size: 1.5rem;
+    }
+    .download {
+        font-size: 2rem;
+    }
+}
