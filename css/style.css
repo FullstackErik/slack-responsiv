@@ -215,3 +215,134 @@ body {
 
     
 }
+:root {
+    --primary-color: #4a154b;  
+}
+body {
+    background-color: var(--primary-color);
+}
+h1 {
+    margin-left: 9.5%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 2.5rem;
+}
+.launch-window {
+    border-radius: 0.6rem;
+    background-color: #ffffff;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid rgba(68, 9, 68, 0.477) ;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+.chas {
+    grid-row: 2;
+    grid-column: 1;
+    border-radius: 50%;
+    height: 80%;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+}
+.top-row {
+    grid-area: 1 / 1 / -4 / -1;
+    background: #ecdeec;
+}
+.workspace-email {
+    font-size: 1.3rem;
+    padding-top: 7%;
+    padding-left: 3%;
+    text-align: flex-start;
+    
+}
+.academy {
+    position: relative;
+    top: 30%;
+    right: 20%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    grid-row: 2;
+    grid-column: 2;
+}
+.launch-window button {
+    height: 60%;
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #611f69;
+    grid-area: 3 / 1 / -1 / -1;
+}
+.members {
+    position: relative;
+    top: 65%;
+    left: 42%;
+    grid-column:2 ;
+    grid-row:2 ;
+    color: gray;
+}
+.profile {
+    position: relative;
+    top: 60%;
+    right: 20%;
+    grid-row: 2;
+    grid-column: 2;
+    height: 30%;
+    width: auto;
+}
+@media (min-width: 768px) {
+    .launch-window {
+        max-width: 1100px;
+        min-width: 900px;
+        grid-template-rows: 1fr;
+    }
+  .launch-window button  {
+    grid-area: -2 / -1 / -1 / -2;
+    width: 50%;
+    justify-self: center ;
+  }
+  .academy {
+    position: relative;
+    left: 30%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .chas {
+    padding-left: 1rem;
+    justify-self: flex-start;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .members {
+    position: relative;
+    left: 60%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .profile {
+    
+    
+    left: 29%;
+    
+    grid-row: 1;
+    grid-column: 1;
+  }
+.top-row {
+    height: 85%;
+    object-fit: contain;
+}
+  .top-row p {
+    position: relative;
+    bottom: 50%;
+    grid-row: -1;
+    font-size: 2rem;
+    text-align: start;
+    
+  }
+}
+
+
