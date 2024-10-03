@@ -107,4 +107,11 @@ body {
     .workspace-button {
         background-color: white;
     }
+
+    .list-arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    
 }
