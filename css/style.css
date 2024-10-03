@@ -3,3 +3,69 @@
     margin: 0;
     padding: 0;
 }
+body{
+   
+}
+
+.container95{
+display: flex;
+border: 5px solid plum;
+height: 30vh;
+flex-direction: column;
+background-color:white;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+}
+
+.woman{
+width: 20vh;
+align-self:flex-start;
+margin-top: auto;
+
+
+
+}
+
+.buttonwiho{
+    background-color: white;
+    border: 2px solid rgb(204, 11, 204);
+    width:80%;
+    align-self: center;
+    margin: 3vh;
+    border-radius:5px;
+    padding: 15px;
+}
+
+
+
+@media(min-width:768px){
+ .container95{
+  flex-direction: row;
+  border-radius: 15px; 
+  height: 10vh;
+  
+ } 
+ 
+ .woman{
+    order: -2;
+    border-top-left-radius: 11px;
+    /* border-top-right-radius:29px ; */
+    /* border-bottom-right-radius:29px ; */
+ } 
+ 
+
+ 
+ .buttonwiho{
+ width: 35%;
+ height: 60%;
+ padding:1px; 
+
+ }
+
+ .wiho{
+    font-size: 0.9rem;
+    align-self: center;
+    
+ }
+}
