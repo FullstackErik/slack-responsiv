@@ -3,3 +3,25 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #4a154b;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav_list {
+        display: flex;
+    list-style: none;
+    }
+}
