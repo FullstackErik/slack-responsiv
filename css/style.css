@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .slack-for-mac {
@@ -77,9 +77,7 @@
         font-size: 2rem;
     }
 }
-=======
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 
 .section_connect{
@@ -828,4 +826,3 @@ h1 {
 }
 
 
->>>>>>> 121021113f7d608ec09937c633ee6712a22aac5f
